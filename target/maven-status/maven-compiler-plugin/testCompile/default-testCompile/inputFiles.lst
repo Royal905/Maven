@@ -1,7 +1,7 @@
-/home/ubuntu/DigitalCard/src/test/java/Backend_TestCases/ManageLicensee.java
-/home/ubuntu/DigitalCard/src/test/java/TestBase/BaseClass.java
-/home/ubuntu/DigitalCard/src/test/java/Listener/MyTestResult.java
-/home/ubuntu/DigitalCard/src/test/java/Backend_TestCases/ManageCompanySetting.java
-/home/ubuntu/DigitalCard/src/test/java/Backend_TestCases/Dashboard.java
-/home/ubuntu/DigitalCard/src/test/java/Backend_TestCases/Login.java
-/home/ubuntu/DigitalCard/src/test/java/Backend_TestCases/OpenBackend.java
+/root/Maven/src/test/java/Listener/MyTestResult.java
+/root/Maven/src/test/java/TestBase/BaseClass.java
+/root/Maven/src/test/java/Backend_TestCases/ManageCompanySetting.java
+/root/Maven/src/test/java/Backend_TestCases/OpenBackend.java
+/root/Maven/src/test/java/Backend_TestCases/Dashboard.java
+/root/Maven/src/test/java/Backend_TestCases/ManageLicensee.java
+/root/Maven/src/test/java/Backend_TestCases/Login.java

@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">11</td><td class="num">8,783</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Backend_TestCases.Login</td><td><a href="#m0">login</a></td><td rowspan="1">1693480957276</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m1">selectCompany</a></td><td rowspan="1">1693480957277</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="3">Backend_TestCases.ManageCompanySetting</td><td><a href="#m2">createCompany</a></td><td rowspan="1">1693480957304</td><td rowspan="1">5001</td></tr><tr class="failedodd"><td><a href="#m3">openManageCompanySetting</a></td><td rowspan="1">1693480962306</td><td rowspan="1">1</td></tr><tr class="failedodd"><td><a href="#m4">validateManageCompanySettingPage</a></td><td rowspan="1">1693480962308</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="5">Backend_TestCases.ManageLicensee</td><td><a href="#m5">changeEntriesFilter</a></td><td rowspan="1">1693480957279</td><td rowspan="1">9</td></tr><tr class="failedeven"><td><a href="#m6">createLicensee</a></td><td rowspan="1">1693480957291</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m7">editLicensee</a></td><td rowspan="1">1693480957293</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m8">openManageLicensee</a></td><td rowspan="1">1693480957299</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m9">validateManageLicenseePage</a></td><td rowspan="1">1693480957302</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="1">Backend_TestCases.OpenBackend</td><td><a href="#m10">openBackend</a></td><td rowspan="1">1693480954214</td><td rowspan="1">3047</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">Backend_TestCases.Login#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:92)
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:287)
+	at org.openqa.selenium.By.xpath(By.java:89)
+	at Utility.GenericKeywords.getLocator(GenericKeywords.java:393)
+	at Utility.ValidationKeyword.validateElementsPresent(ValidationKeyword.java:214)
+	at Backend_TestCases.Login.login(Login.java:10)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Backend_TestCases.Login#selectCompany</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:92)
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:287)
+	at org.openqa.selenium.By.xpath(By.java:89)
+	at Utility.GenericKeywords.getLocator(GenericKeywords.java:393)
+	at Utility.ValidationKeyword.validateElementPresent(ValidationKeyword.java:155)
+	at Backend_TestCases.Login.selectCompany(Login.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Backend_TestCases.ManageCompanySetting#createCompany</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
+	at Utility.GenericKeywords.presenceOfElement(GenericKeywords.java:261)
+	at Utility.GenericKeywords.getElement(GenericKeywords.java:311)
+	at Utility.GenericKeywords.click(GenericKeywords.java:134)
+	at Backend_TestCases.ManageCompanySetting.createCompany(ManageCompanySetting.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Backend_TestCases.ManageCompanySetting#openManageCompanySetting</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
+	at Utility.GenericKeywords.presenceOfElement(GenericKeywords.java:261)
+	at Utility.GenericKeywords.getElement(GenericKeywords.java:311)
+	at Utility.GenericKeywords.click(GenericKeywords.java:134)
+	at Backend_TestCases.ManageCompanySetting.openManageCompanySetting(ManageCompanySetting.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Backend_TestCases.ManageCompanySetting#validateManageCompanySettingPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:92)
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:287)
+	at org.openqa.selenium.By.xpath(By.java:89)
+	at Utility.GenericKeywords.getLocator(GenericKeywords.java:393)
+	at Utility.ValidationKeyword.validateElementPresent(ValidationKeyword.java:155)
+	at Backend_TestCases.ManageCompanySetting.validateManageCompanySettingPage(ManageCompanySetting.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Backend_TestCases.ManageLicensee#changeEntriesFilter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
+	at Utility.GenericKeywords.presenceOfElement(GenericKeywords.java:261)
+	at Utility.GenericKeywords.getElement(GenericKeywords.java:311)
+	at Utility.GenericKeywords.click(GenericKeywords.java:134)
+	at Backend_TestCases.ManageLicensee.openManageLicensee(ManageLicensee.java:17)
+	at Backend_TestCases.ManageLicensee.changeEntriesFilter(ManageLicensee.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Backend_TestCases.ManageLicensee#createLicensee</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
+	at Utility.GenericKeywords.presenceOfElement(GenericKeywords.java:261)
+	at Utility.GenericKeywords.getElement(GenericKeywords.java:311)
+	at Utility.GenericKeywords.click(GenericKeywords.java:134)
+	at Backend_TestCases.ManageLicensee.createLicensee(ManageLicensee.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Backend_TestCases.ManageLicensee#editLicensee</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:92)
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:287)
+	at org.openqa.selenium.By.xpath(By.java:89)
+	at Utility.GenericKeywords.getLocator(GenericKeywords.java:393)
+	at Utility.ValidationKeyword.clickLastColumnButtonForFirstColumnValue(ValidationKeyword.java:860)
+	at Backend_TestCases.ManageLicensee.editLicensee(ManageLicensee.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Backend_TestCases.ManageLicensee#openManageLicensee</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
+	at Utility.GenericKeywords.presenceOfElement(GenericKeywords.java:261)
+	at Utility.GenericKeywords.getElement(GenericKeywords.java:311)
+	at Utility.GenericKeywords.click(GenericKeywords.java:134)
+	at Backend_TestCases.ManageLicensee.openManageLicensee(ManageLicensee.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Backend_TestCases.ManageLicensee#validateManageLicenseePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:92)
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:287)
+	at org.openqa.selenium.By.xpath(By.java:89)
+	at Utility.GenericKeywords.getLocator(GenericKeywords.java:393)
+	at Utility.ValidationKeyword.validateElementPresent(ValidationKeyword.java:155)
+	at Backend_TestCases.ManageLicensee.validateManageLicenseePage(ManageLicensee.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Backend_TestCases.OpenBackend#openBackend</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 1
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ip-172-31-54-81&apos;, ip: &apos;172.31.54.81&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2.0-1009-aws&apos;, java.version: &apos;11.0.20.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:198)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:164)
+	at Utility.GenericKeywords.launchBrowser(GenericKeywords.java:104)
+	at Backend_TestCases.OpenBackend.openBackend(OpenBackend.java:10)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

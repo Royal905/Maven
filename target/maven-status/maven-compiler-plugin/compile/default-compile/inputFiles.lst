@@ -1,5 +1,5 @@
-/home/ubuntu/DigitalCard/src/main/java/Utility/GenericKeywords.java
-/home/ubuntu/DigitalCard/src/main/java/ExtentReports/ExtentManager.java
-/home/ubuntu/DigitalCard/src/main/java/Recorder/MyScreenRecorder.java
-/home/ubuntu/DigitalCard/src/main/java/Utility/ApplicationKeyword.java
-/home/ubuntu/DigitalCard/src/main/java/Utility/ValidationKeyword.java
+/root/Maven/src/main/java/Recorder/MyScreenRecorder.java
+/root/Maven/src/main/java/Utility/GenericKeywords.java
+/root/Maven/src/main/java/ExtentReports/ExtentManager.java
+/root/Maven/src/main/java/Utility/ValidationKeyword.java
+/root/Maven/src/main/java/Utility/ApplicationKeyword.java

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Backend_TestCases.ManageCompanySetting">
+        <methods>
+          <include name="createCompany"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="validateManageCompanySettingPage"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="openManageCompanySetting"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Backend_TestCases.ManageCompanySetting -->
+      <class name="Backend_TestCases.Login">
+        <methods>
+          <include name="login"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="selectCompany"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Backend_TestCases.Login -->
+      <class name="Backend_TestCases.ManageLicensee">
+        <methods>
+          <include name="createLicensee"/>
+          <include name="validateManageLicenseePage"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="openManageLicensee"/>
+          <include name="beforeMethod"/>
+          <include name="editLicensee"/>
+          <include name="afterSuite"/>
+          <include name="changeEntriesFilter"/>
+        </methods>
+      </class> <!-- Backend_TestCases.ManageLicensee -->
+      <class name="Backend_TestCases.OpenBackend">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="openBackend"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Backend_TestCases.OpenBackend -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

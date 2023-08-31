@@ -32,7 +32,7 @@ public class ExtentManager {
 //			reports = System.getProperty("user.dir") + File.separator + "Results" + File.separator + reportsFolder;	//Screenshots Saving Folder
 //			String path = 	System.getProperty("user.dir")+File.separator + "Results"+d.toString().replaceAll(":", "-");	//extentReports Saving Folder
 //			File file = new File(reports);
-			String reportsFolder = d.toString().replaceAll(":", "-") + File.separator + "Screenshots";
+			String reportsFolder = "Reports" + File.separator + "Screenshots";
 
 	        reports = System.getProperty("user.dir") + File.separator + "Results" + File.separator + reportsFolder; // Screenshots Saving Folder
 	        String path = System.getProperty("user.dir") + File.separator + "Results" + File.separator + d.toString().replaceAll(":", "-"); // extentReports Saving Folder
